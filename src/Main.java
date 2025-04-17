@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Bird snow = new Bird();
+        snow.makeSound();
+        snow.fly();
     }
 }
