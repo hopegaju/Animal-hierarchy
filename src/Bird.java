@@ -6,7 +6,11 @@ public class Bird extends Animal {
     }
 
     public void fly() {
-        System.out.println("Birds do Fly!");
+        if (weight > 5.0) {
+            System.out.println("This bird is overweight and cannot fly well.");
+        } else {
+            System.out.println("This bird is flying!");
+        }
     }
     @Override
     public void makeSound() {
