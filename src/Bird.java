@@ -1,4 +1,10 @@
 public class Bird extends Animal {
+    double weight;
+
+    public Bird(double weight) {
+        this.weight = weight;
+    }
+
     public void fly() {
         System.out.println("Birds do Fly!");
     }
